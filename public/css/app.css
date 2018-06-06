@@ -16780,6 +16780,28 @@ body {
   margin-bottom: 0px;
 }
 
+.nav-tabs {
+  margin-bottom: 20px;
+}
+
+.nav-tabs > li.active > a {
+  background-color: #fff;
+}
+
+.list-group .list-group-item {
+  border: none;
+  margin-bottom: 0px;
+  border-bottom: 1px solid #efefef;
+}
+
+.list-group .list-group-item .meta {
+  color: #b3b3b3;
+}
+
+.pagination {
+  margin: 12px 0;
+}
+
 /* Topic Index Page */
 
 .topics-index-page .topic-list .nav > li > a,
