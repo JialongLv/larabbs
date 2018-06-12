@@ -1,0 +1,151 @@
+[33mcommit 0417e605b379a59d8423b0bcc15d30da36c75ef4[m
+Author: Jialong <ljl9410@126.com>
+Date:   Mon Jun 11 23:43:06 2018 +0800
+
+    Auto translate slug
+
+[33mcommit e08bd0c6e28a491c25ff14d3f5ca8f422cadccfa[m
+Author: Jialong <ljl9410@126.com>
+Date:   Sun Jun 10 15:00:02 2018 +0800
+
+    Author can delete topic
+
+[33mcommit 32a0160b0b37e951af5a14dd6000b7eb616ad93b[m
+Author: Jialong <ljl9410@126.com>
+Date:   Sun Jun 10 14:54:14 2018 +0800
+
+    Users can edit their own topic
+
+[33mcommit 3613e7dde0c8cbe427068f6025fcbac7264641fa[m
+Author: Jialong <ljl9410@126.com>
+Date:   Sun Jun 10 14:42:45 2018 +0800
+
+    Prevent XSS injection
+
+[33mcommit a4e4f4649a7c86cad4cc9775e094db88c5dd7a6b[m
+Author: Jialong <ljl9410@126.com>
+Date:   Sun Jun 10 14:31:21 2018 +0800
+
+    Topic detail page
+
+[33mcommit a5950b6fffb7e7fc6c414e37520b0665d55ac68b[m
+Author: Jialong <ljl9410@126.com>
+Date:   Sun Jun 10 09:54:18 2018 +0800
+
+    WYSIWYG Editor
+
+[33mcommit e407caa986b41e00ccdcc3c7a49790d5b955fa00[m
+Author: Jialong <ljl9410@126.com>
+Date:   Thu Jun 7 00:33:54 2018 +0800
+
+    User can create topic
+
+[33mcommit ff105c52371e29ab9dffe4460abf9adac2e79940[m
+Author: Jialong <ljl9410@126.com>
+Date:   Tue Jun 5 23:28:29 2018 +0800
+
+    List topics created by user
+
+[33mcommit 8e2939e7a770138fe2985cacdf692125eb9e8d7c[m
+Author: Jialong <ljl9410@126.com>
+Date:   Tue Jun 5 22:32:38 2018 +0800
+
+    Topic order
+
+[33mcommit 427da4cbfc57f0f3ce314ed4b78debcc6e0adcce[m
+Author: Jialong <ljl9410@126.com>
+Date:   Mon Jun 4 21:18:17 2018 +0800
+
+    Topic index page
+
+[33mcommit f39ae2ebe094ddcc0ec0dba6691716661ae1c43b[m
+Author: Jialong <ljl9410@126.com>
+Date:   Mon Jun 4 17:22:22 2018 +0800
+
+    Seeding topics and users data
+
+[33mcommit d19784b7b2f4b006fa921c946bf1c5f48454626c[m
+Author: Jialong <ljl9410@126.com>
+Date:   Sun Jun 3 23:23:07 2018 +0800
+
+    Generated topics
+
+[33mcommit 57b868e6131089e81d112e4563dab45cf4ddfeb7[m
+Author: Jialong <ljl9410@126.com>
+Date:   Sun Jun 3 23:15:18 2018 +0800
+
+    Add generator
+
+[33mcommit 357bbb6ea6ba7a570956191186861dc957ca3e19[m
+Author: Jialong <ljl9410@126.com>
+Date:   Sun Jun 3 23:14:08 2018 +0800
+
+    Create categories
+
+[33mcommit a1e457c8fc59e8f01d3c70679be55fb05b56531c[m
+Author: Jialong <ljl9410@126.com>
+Date:   Sun Jun 3 22:24:39 2018 +0800
+
+    Only authorized user can edit user profile
+
+[33mcommit 972f5d294505bf19fe0abc30c8aacccd26a2af0a[m
+Author: Jialong <ljl9410@126.com>
+Date:   Sun Jun 3 22:14:40 2018 +0800
+
+    User can upload avatar
+
+[33mcommit a275d6b91266780b6814707112f0b8414440637d[m
+Author: Jialong <ljl9410@126.com>
+Date:   Sun Jun 3 17:24:09 2018 +0800
+
+    Basic user profile editing
+
+[33mcommit b7ebbec4e67631969f1c40a089e2943b68555b40[m
+Author: Jialong <ljl9410@126.com>
+Date:   Sun Jun 3 10:58:26 2018 +0800
+
+    User profile page
+
+[33mcommit 1240391a70d36e8653f4033181f2d73f45d2465d[m
+Author: Jialong <ljl9410@126.com>
+Date:   Sun Jun 3 10:46:34 2018 +0800
+
+    Move user model to models folder
+
+[33mcommit e7a15fea7a74c70eab46852101f13c8fea637655[m
+Author: Jialong <ljl9410@126.com>
+Date:   Sun Jun 3 10:41:03 2018 +0800
+
+    Add captcha
+
+[33mcommit cbe9e7516e6e5e783983939f345ab32345fea2c6[m
+Author: jialong <jialong@ibenhong.com>
+Date:   Sat Jun 2 20:08:46 2018 +0800
+
+    Finsh user auth
+
+[33mcommit 544c5493874a77b0c2221d96b3e7d72b44a7dfde[m
+Author: jialong <jialong@ibenhong.com>
+Date:   Sat Jun 2 19:40:54 2018 +0800
+
+    Finsh basic page layout
+
+[33mcommit d3047da37f7cb3b9c72beb97654e7a9d8e857b80[m
+Author: jialong <jialong@ibenhong.com>
+Date:   Sat Jun 2 18:15:51 2018 +0800
+
+    Add custom helpers
+
+[33mcommit 7fcc2818cab48e18debe65aa5e4c4ff34e0b4888[m
+Author: jialong <jialong@ibenhong.com>
+Date:   Sat Jun 2 18:09:29 2018 +0800
+
+    Adjust configuration
+
+[33mcommit 485b9016d271b2e169b2fb7cf52332b9e4178466[m
+Author: jialong <jialong@ibenhong.com>
+Date:   Sat Jun 2 16:50:05 2018 +0800
+
+    Initial commit
+    
+    Initial commit
