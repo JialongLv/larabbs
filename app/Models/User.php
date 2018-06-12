@@ -18,6 +18,8 @@ class User extends Authenticatable
         'name', 'email', 'password','introduction','avatar',
     ];
 
+
+
     /**
      * The attributes that should be hidden for arrays.
      *
@@ -35,6 +37,11 @@ class User extends Authenticatable
     public function isAuthorOf($model)
     {
         return $this->id == $model->user_id;
+    }
+
+    public function replies()
+    {
+        return $this->hasMany(Reply::class);
     }
 
 }
