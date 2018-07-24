@@ -90,4 +90,5 @@ class User extends Authenticatable
 
         $this->attributes['avatar'] = $path;
     }
+
 }
