@@ -10,14 +10,25 @@ class VerificationCodesController extends Controller
 {
     public function store(VerificationCodeRequest $request,EasySms $easySms)
     {
-        $phone = $request->phone;
+        $captchaDate = \Cache::get($request->captcha_key);
+//        dd( $captchaDate);
+        if (!$captchaDate){
+            return $this->response->error('图片验证码已失效',422);
+        }
 
-        //生成验证码
-        $code = str_pad(random_int(1,9999),4,0,STR_PAD_LEFT);
+        if (!hash_equals($captchaDate['code'], $request->captcha_code)){
+            //验证错误清除缓存
+            \Cache::forget($request->captcha_key);
+            return $this->response->errorUnauthorized('验证码错误');
+        }
+
+        $phone = $captchaDate['phone'];
 
         if (!app()->environment('production')){
             $code = '1234';
         }else{
+            //生成验证码
+            $code = str_pad(random_int(1,9999),4,0,STR_PAD_LEFT);
             try{
                 $result = $easySms->send($phone,[
                     'content' => "【吕加龙】您的验证码是{$code}"
