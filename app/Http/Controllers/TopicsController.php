@@ -21,6 +21,7 @@ class TopicsController extends Controller
 
     public function index(Request $request, Topic $topic,User $user, Link $link)
     {
+
         $topics = $topic->withOrder($request->order)->paginate(20);
         $active_users = $user->getActiveUsers();
         $links = $link->getAllCached();
