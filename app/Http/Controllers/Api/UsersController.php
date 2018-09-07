@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Models\Image;
+use App\Transformers\ReplyTransformers;
 use Illuminate\Http\Request;
 use App\Http\Requests\Api\UserRequest;
 use App\Models\User;
@@ -55,6 +56,8 @@ class UsersController extends Controller
 
         return $this->response->item($user, new UserTransformer());
     }
+
+
 
     public function me()
     {
